@@ -1,0 +1,125 @@
+
+h1{
+    margin-top: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+table tr td{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px black;
+}
+
+body{
+    font-family: 'PT Sans',sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #fff;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    color: rgb(51,34,34);
+    position: fixed;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0; /* if 2: Top Botttom  if 4: Left Right*/
+    color : #333;
+}
+
+nav a:hover{
+    background-color: #444;
+    color: whitesmoke;
+}
+
+body{
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    background: #333;
+    color: whitesmoke;
+    line-height: 20px;
+}
+
+fieldset{
+    padding-top: 20px;
+    width: 500px;
+    text-align: center;
+    border-radius: 0.5%;
+    border-style: dashed black;
+    border-width: 5px;
+}
+
+.indp{
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-left: 255px;
+    margin-right: 255px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,2fr); /*fr : Fractional unit*/
+    padding : 2rem;
+    text-align: left;
+    font-size: 16px;
+}
+
+.list ul{
+    list-style: none;
+    text-align: center;
+}
+
+.list ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.list ul:hover{
+    transform: translateY(-50px);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.checked{
+    color: #ff523b;
+}
+
+.list img{
+    border: #fff 2px solid;
+}
